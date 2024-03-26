@@ -1,30 +1,8 @@
 # Harmful Brain Activity
 
-# How to run the Main ipynb file?
+## How to run the Main ipynb file?
 
-- If running for the first time
-  - Run the enviornment_setup.ipynb.
-  - Then run harmful_brain_activity.ipynb
-- Else
-  - Directly run harmful_brain_activity.ipynb
-
-#### Updates from Sargun
-- Added EEG_Research folder
-- Contains image files that explains the outputs.
-- Contains sample_eeg.parquet and sample_spectrogram.parquet, which are the input files.
-- Contains EEG_Research.ipynb, which is the jupyter notebook going over everything.
-- Contains convert-jupyter.sh that convert EEG_Research.ipynb to EEG_Research.pdf
-- Created a virtual enviornment for python, so you have no problems with dependencies.
-
-To run ./convert-jupyter.sh after updating EEG_Research.ipynb, do, in your command line
-
-```bash
-cd EEG_Research
-chmod a+x convert-jupyter.sh
-./convert-jupyter.sh
-```
-
-## Running the Virtual Enviornment 
+### 1. Running the Virtual Enviornment 
 
 ```bash
 source venv/bin/activate
@@ -37,21 +15,8 @@ pip uninstall ipykernel
 pip install ipykernel
 ```
 
-## gitignore inputs
 
-- If you run and want to commit to GitHub, have in your .gitignore
-
-```
-logs
-test_spectrograms
-train_spectrograms
-test_eegs
-train_eegs
-X_train_list.npy
-hms-harmful-brain-activity-classification.zip
-```
-
-## Setting Up Kaggle folder to download the dataset
+### 3. Setting Up Kaggle folder to download the dataset
 
 - Go the Kaggle Settings
 - Go to Settings
@@ -63,4 +28,23 @@ hms-harmful-brain-activity-classification.zip
 ```bash
 mkdir ~/.kaggle
 scp kaggle.json ~/.kaggle/kaggle.json 
+```
+
+### 2. Running the Jupyter files
+
+- If running for the first time
+  - Run the enviornment_setup.ipynb.
+  - Then run harmful_brain_activity.ipynb
+- Else
+  - Directly run harmful_brain_activity.ipynb
+
+
+## Working with EEG_Research.ipynb
+
+To run ./convert-jupyter.sh after updating EEG_Research.ipynb, do, in your command line
+
+```bash
+cd EEG_Research
+chmod a+x convert-jupyter.sh
+./convert-jupyter.sh
 ```
