@@ -30,6 +30,13 @@ chmod a+x convert-jupyter.sh
 source venv/bin/activate
 ```
 
+You may have to run 
+
+```bash
+pip uninstall ipykernel
+pip install ipykernel
+```
+
 ## gitignore inputs
 
 - If you run and want to commit to GitHub, have in your .gitignore

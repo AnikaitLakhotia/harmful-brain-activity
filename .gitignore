@@ -2,3 +2,4 @@ logs
 X_train_list.npy
 hms-harmful-brain-activity-classification.zip
 data
+venv
