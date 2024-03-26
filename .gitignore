@@ -1,6 +1,4 @@
 logs
-test_spectrograms
-train_spectrograms
-test_eegs
-train_eegs
 X_train_list.npy
+hms-harmful-brain-activity-classification.zip
+data
