@@ -2,7 +2,28 @@
 
 ## How to run the Main ipynb file?
 
-### 1. Running the Virtual Enviornment 
+### 1. Setting Up Kaggle folder to download the dataset
+
+- Go the Kaggle Settings
+- Go to Settings
+- Scroll down to API
+- Create New Token and then save the file kaggle.json on your computer.
+- Open terminal and browse to the place where you stored kaggle.json
+- Then run the following code in the terminal
+
+```bash
+mkdir ~/.kaggle
+scp kaggle.json ~/.kaggle/kaggle.json 
+```
+
+
+### 2. Running the Virtual Enviornment 
+
+You can skip steps 2 and 3 by running:
+```bash
+make [-r] 
+```
+> `-r` will remove the zip file after downloaded
 
 - Create and run the virtual enviornment 
   
@@ -20,19 +41,6 @@ pip install ipykernel
 ```
 
 
-### 2. Setting Up Kaggle folder to download the dataset
-
-- Go the Kaggle Settings
-- Go to Settings
-- Scroll down to API
-- Create New Token and then save the file kaggle.json on your computer.
-- Open terminal and browse to the place where you stored kaggle.json
-- Then run the following code in the terminal
-
-```bash
-mkdir ~/.kaggle
-scp kaggle.json ~/.kaggle/kaggle.json 
-```
 
 ### 3. Running the Jupyter files
 
