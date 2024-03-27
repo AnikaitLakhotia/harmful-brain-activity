@@ -6,3 +6,4 @@ keras
 matplotlib
 kaggle
 pyarrow
+scipy
