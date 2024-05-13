@@ -1,4 +1,4 @@
 # This file is used internally by FFMPEG.
 file 'file:/Users/sargunsinghbhatti/Library/CloudStorage/OneDrive-UniversityofWaterloo/Documents/GitHub/harmful-brain-activity/EEG_Research/manim_project/media/videos/scene/1080p60/partial_movie_files/FourierVisualization/3977891868_171299451_2358810818.mp4'
-file 'file:/Users/sargunsinghbhatti/Library/CloudStorage/OneDrive-UniversityofWaterloo/Documents/GitHub/harmful-brain-activity/EEG_Research/manim_project/media/videos/scene/1080p60/partial_movie_files/FourierVisualization/2852726489_2983162020_1444420308.mp4'
-file 'file:/Users/sargunsinghbhatti/Library/CloudStorage/OneDrive-UniversityofWaterloo/Documents/GitHub/harmful-brain-activity/EEG_Research/manim_project/media/videos/scene/1080p60/partial_movie_files/FourierVisualization/2852726489_1733944848_2899970348.mp4'
+file 'file:/Users/sargunsinghbhatti/Library/CloudStorage/OneDrive-UniversityofWaterloo/Documents/GitHub/harmful-brain-activity/EEG_Research/manim_project/media/videos/scene/1080p60/partial_movie_files/FourierVisualization/2852726489_2983162020_453398956.mp4'
+file 'file:/Users/sargunsinghbhatti/Library/CloudStorage/OneDrive-UniversityofWaterloo/Documents/GitHub/harmful-brain-activity/EEG_Research/manim_project/media/videos/scene/1080p60/partial_movie_files/FourierVisualization/2852726489_1733944848_492581973.mp4'

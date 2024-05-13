@@ -9,7 +9,8 @@ class FourierVisualization(Scene):
                                                                 np.sin(2 * np.pi / frequency * (x - shift)) + \
                                                                 displacement
         equation_exp = lambda amplitude, frequency, shift, displacement, x: amplitude * \
-                                                                np.exp(1j * 2 * np.pi / frequency * (x - shift)) + \
+                                                                complex(np.cos(2 * np.pi / frequency * (x - shift)), \
+                                                                    np.sin(2 * np.pi / frequency * (x - shift))) + \
                                                                 1j * displacement
         
         plane = ComplexPlane(x_length=5, x_range=[-2, 2], y_length=5, y_range=[-2, 2]).add_coordinates()
